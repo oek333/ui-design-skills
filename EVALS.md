@@ -1,8 +1,12 @@
 # Evaluation
 
-*These three skills grew out of my own work and have served me well for a few months now, especially with older or smaller models. I have had little friction in the prototyping sessions where I used them. For the sake of quantifying things, I had Claude evaluate models with and without the skills. I gave minimal input beyond a few directions: Claude constructed the tests from my own work, ran them across the models, and wrote the report below at my direction. I read it once and made very few emendations. Take the results with a grain of salt, if you will; they are not exhaustive, but they do match my own experience. What they don’t measure is the time one saves reviewing the output, or the back-and-forth needed to reach the desired results. Those aspects you can judge for yourself, since they are largely subjective or depend on your context.*
+> *These three skills grew out of my own work and have served me well for a few months now, especially with older or smaller models. I have had little friction in the prototyping sessions where I used them. For the sake of quantifying things, I had Claude evaluate models with and without the skills. I gave minimal input beyond a few directions: Claude constructed the tests from my own work, ran them across the models, and wrote the report below at my direction. I read it once and made very few emendations. Take the results with a grain of salt, if you will; they are not exhaustive, but they do match my own experience. What they don’t measure is the time one saves reviewing the output, or the back-and-forth needed to reach the desired results. Those aspects you can judge for yourself, since they are largely subjective or depend on your context.*
+>
+> — Oualid
 
-*— Oualid*
+Claude reports on results thus:
+
+---
 
 The three skills were tested on five Claude models by giving each model the same task with and without the plugin. With the skills, scores rose on every model, by 31 to 47 points on average. The gains were largest on Opus 4.8 and Haiku 5.5, the models that did worst without them.
 
@@ -94,4 +98,6 @@ claude plugin eval . --scaffold --trust-plugin --allow-tools Bash Write Edit --r
 - **Cost:** runs count against your Claude plan's usage, or your API account if you use a key.
 - **Changing a test app:** edit it in `evals/fixtures/`, then run `evals/build-scaffolds.sh` to regenerate the setup scripts.
 
-— Claude Opus 5.5, in Claude Code 2.1.296
+---
+
+<p align="right"><em>— Claude Opus 5.5, in Claude Code 2.1.296</em></p>
