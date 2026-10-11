@@ -43,7 +43,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
          plugins/ui-design-skills/skills/ux-prototype-handoff
 ```
 
-`--method git` fetches with your own git credentials, which this private repo needs. You can also ask Codex to do it: "Use skill-installer to install the three skills under plugins/ui-design-skills/skills/ from oek333/ui-design-skills." Or clone the repo and copy the three folders into `~/.codex/skills/` by hand.
+`--method git` fetches the files with git, which avoids certificate errors some Python installs hit with the default download. You can also ask Codex to do it: "Use skill-installer to install the three skills under plugins/ui-design-skills/skills/ from oek333/ui-design-skills." Or clone the repo and copy the three folders into `~/.codex/skills/` by hand.
 
 Start a new Codex session afterwards. The installer won't overwrite a skill folder that already exists, so remove an older copy first.
 
