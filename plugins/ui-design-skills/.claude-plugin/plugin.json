@@ -1,0 +1,9 @@
+{
+  "name": "ui-design-skills",
+  "version": "1.0.0",
+  "description": "Three skills for designing and reviewing interfaces with Claude: prototype-first handoff, friction audits of shipped UI, and whole-screen visual coherence.",
+  "author": {
+    "name": "Oualid El Khattabi"
+  },
+  "license": "MIT"
+}

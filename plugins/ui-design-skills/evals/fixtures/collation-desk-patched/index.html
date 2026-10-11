@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Collation Desk</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/desk.css">
+</head>
+<body>
+  <header class="masthead"><span>Collation Desk</span><span><label class="dated-toggle"><input type="checkbox" id="dated-only"> Dated only</label> <span class="state" id="chapter"></span></span></header>
+  <div class="desk">
+    <div class="ledger-wrap"><div id="ledger"></div></div>
+    <aside class="panel" id="panel"></aside>
+  </div>
+  <script src="data/witnesses.js"></script>
+  <script src="src/state.js"></script>
+  <script src="src/ledger.js"></script>
+  <script src="src/panel.js"></script>
+  <script src="src/extras.js"></script>
+  <script>
+    document.getElementById("chapter").textContent = DATA.chapter;
+    setState({});
+  </script>
+</body>
+</html>

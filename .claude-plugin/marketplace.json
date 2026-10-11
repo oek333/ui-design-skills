@@ -1,0 +1,16 @@
+{
+  "name": "oualid-skills",
+  "owner": {
+    "name": "Oualid El Khattabi"
+  },
+  "metadata": {
+    "description": "Oualid El Khattabi's Claude Code skills for interface design work."
+  },
+  "plugins": [
+    {
+      "name": "ui-design-skills",
+      "source": "./plugins/ui-design-skills",
+      "description": "Three skills for designing and reviewing interfaces with Claude: prototype-first handoff, friction audits of shipped UI, and whole-screen visual coherence."
+    }
+  ]
+}

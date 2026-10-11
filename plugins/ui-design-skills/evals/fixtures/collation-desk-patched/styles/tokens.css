@@ -1,0 +1,16 @@
+:root {
+  --paper: #f6f4ee;
+  --paper-2: #ece8de;
+  --ink: #181511;
+  --ink-2: #4a443b;
+  --ink-3: #8a8273;
+  --rule: #d8d2c4;
+  --accent: #7a2e2a;      /* selection, active */
+  --present: #3d5c3a;     /* witness attests the row */
+  --absent: #b5ad99;      /* gap / lacuna */
+  --font-serif: "Iowan Old Style", Palatino, serif;
+  --font-mono: "SF Mono", Menlo, monospace;
+  --font-arabic: "Noto Naskh Arabic", "Amiri", serif;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-6: 24px;
+  --label-size: 10px; --label-track: .14em;
+}
