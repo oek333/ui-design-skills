@@ -27,6 +27,24 @@ To install by hand instead, copy any folder from `plugins/ui-design-skills/skill
 
 Zip a skill folder and upload it under Settings → Capabilities → Skills.
 
+## Use with Codex
+
+Codex reads skills in the same `SKILL.md` format from `~/.codex/skills/` (or `$CODEX_HOME/skills/`). Install all three with Codex's built-in installer:
+
+```
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo oek333/ui-design-skills --method git \
+  --path plugins/ui-design-skills/skills/coherent-ui \
+         plugins/ui-design-skills/skills/friction-audit \
+         plugins/ui-design-skills/skills/ux-prototype-handoff
+```
+
+`--method git` fetches with your own git credentials, which this private repo needs. You can also ask Codex to do it: "Use skill-installer to install the three skills under plugins/ui-design-skills/skills/ from oek333/ui-design-skills." Or clone the repo and copy the three folders into `~/.codex/skills/` by hand.
+
+Start a new Codex session afterwards. The installer won't overwrite a skill folder that already exists, so remove an older copy first.
+
+The skills were written and evaluated with Claude; the evaluation does not cover Codex models. Where `ux-prototype-handoff` mentions a question tool with layout previews, Codex will ask in the chat instead.
+
 ## Layout
 
 ```
