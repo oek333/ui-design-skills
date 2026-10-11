@@ -98,6 +98,6 @@ claude plugin eval . --scaffold --trust-plugin --allow-tools Bash Write Edit --r
 - **Cost:** runs count against your Claude plan's usage, or your API account if you use a key.
 - **Changing a test app:** edit it in `evals/fixtures/`, then run `evals/build-scaffolds.sh` to regenerate the setup scripts.
 
----
-
 <p align="right"><em>— Claude Opus 5.5, in Claude Code 2.1.296</em></p>
+
+---

@@ -1,6 +1,10 @@
 # UI design skills
 
-Three skills I use with Claude when designing and reviewing interfaces. Each was written by Claude to distill a working session that went well; the `PROVENANCE.md` beside each skill says which session and quotes the prompts behind it, following `provenance-conventions.md`.
+> *This repo is my way of sharing skill files that were written at one remove, in collaboration with LLMs, with their provenance clearly marked. These skills have been very useful to me, and I have tried to document exactly how each one came about. In short, they distill the idiosyncratic process that results from my prompting along specific lines. The workflows they encode are therefore as much mine as they are Claude’s, or any other LLM’s. They are one way of capturing ideas that took shape in dialogue with the models during coding sessions. I have made very few changes to the prose of the skill files themselves, because I was judging outcome, not presentation.*
+>
+> — Oualid
+
+Three skills I use with Claude when designing and reviewing interfaces. The `PROVENANCE.md` beside each skill says which session it came from and quotes the prompts behind it, following `provenance-conventions.md`.
 
 | Skill | Use it when | Origin |
 |---|---|---|
